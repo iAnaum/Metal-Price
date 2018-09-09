@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E454FCC0C3CC12C20D2B5F4 /* Pods_Metal_Price.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499E46B90C62682F9DF252E9 /* Pods_Metal_Price.framework */; };
+		6B0805A821453AF4008D61D3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B0805A721453AF4008D61D3 /* Podfile */; };
+		6B0805AA21454F08008D61D3 /* SpotPrice_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805A921454F08008D61D3 /* SpotPrice_ViewController.swift */; };
+		6B0805AE21455350008D61D3 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805AD21455350008D61D3 /* Property.swift */; };
+		6B0805B221455D5E008D61D3 /* Price_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805B021455D5E008D61D3 /* Price_TableViewCell.swift */; };
+		6B0805B321455D5E008D61D3 /* Price_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B0805B121455D5E008D61D3 /* Price_TableViewCell.xib */; };
+		6B0805BD214565F0008D61D3 /* UIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805B6214565EF008D61D3 /* UIUtility.swift */; };
+		6B0805BE214565F0008D61D3 /* InternetCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805B9214565F0008D61D3 /* InternetCheck.m */; };
+		6B0805BF214565F0008D61D3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805BB214565F0008D61D3 /* Reachability.m */; };
+		6B0805C4214578BA008D61D3 /* AppURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805C3214578B9008D61D3 /* AppURLs.swift */; };
+		6B0805C721457B8D008D61D3 /* ThemeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805C621457B8D008D61D3 /* ThemeEngine.swift */; };
+		6B0805C921457BE7008D61D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0805C821457BE7008D61D3 /* Constants.swift */; };
+		6B0EA2693F319087E562F6CA /* Pods_Metal_PriceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F2E5032CDB236BCC7B856F /* Pods_Metal_PriceTests.framework */; };
 		6B7515D12145209800852E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7515D02145209800852E1D /* AppDelegate.swift */; };
 		6B7515D32145209800852E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7515D22145209800852E1D /* ViewController.swift */; };
 		6B7515D62145209800852E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7515D42145209800852E1D /* Main.storyboard */; };
@@ -14,6 +27,7 @@
 		6B7515DB2145209800852E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B7515D92145209800852E1D /* LaunchScreen.storyboard */; };
 		6B7515E62145209900852E1D /* Metal_PriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7515E52145209900852E1D /* Metal_PriceTests.swift */; };
 		6B7515F12145209900852E1D /* Metal_PriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7515F02145209900852E1D /* Metal_PriceUITests.swift */; };
+		908489B1E24EDE1213A51E52 /* Pods_Metal_PriceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF10244694AEBD44450CDB0C /* Pods_Metal_PriceUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D9D3FF2D3A0D114A3668466 /* Pods-Metal Price.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Price.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metal Price/Pods-Metal Price.release.xcconfig"; sourceTree = "<group>"; };
+		42885BE287D8710BA4A05AD2 /* Pods-Metal PriceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal PriceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metal PriceUITests/Pods-Metal PriceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		499E46B90C62682F9DF252E9 /* Pods_Metal_Price.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_Price.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7DBF2B6BFC60EEB33F5EF0 /* Pods-Metal PriceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal PriceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metal PriceTests/Pods-Metal PriceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		581AB9DF1CDA8994AFF8FD11 /* Pods-Metal Price.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal Price.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metal Price/Pods-Metal Price.debug.xcconfig"; sourceTree = "<group>"; };
+		6B0805A721453AF4008D61D3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B0805A921454F08008D61D3 /* SpotPrice_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPrice_ViewController.swift; sourceTree = "<group>"; };
+		6B0805AD21455350008D61D3 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		6B0805B021455D5E008D61D3 /* Price_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price_TableViewCell.swift; sourceTree = "<group>"; };
+		6B0805B121455D5E008D61D3 /* Price_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Price_TableViewCell.xib; sourceTree = "<group>"; };
+		6B0805B6214565EF008D61D3 /* UIUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtility.swift; sourceTree = "<group>"; };
+		6B0805B8214565F0008D61D3 /* InternetCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetCheck.h; sourceTree = "<group>"; };
+		6B0805B9214565F0008D61D3 /* InternetCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetCheck.m; sourceTree = "<group>"; };
+		6B0805BB214565F0008D61D3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6B0805BC214565F0008D61D3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6B0805C3214578B9008D61D3 /* AppURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppURLs.swift; sourceTree = "<group>"; };
+		6B0805C621457B8D008D61D3 /* ThemeEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeEngine.swift; sourceTree = "<group>"; };
+		6B0805C821457BE7008D61D3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6B7515CD2145209800852E1D /* Metal Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7515D02145209800852E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B7515D22145209800852E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +79,10 @@
 		6B7515EC2145209900852E1D /* Metal PriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal PriceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7515F02145209900852E1D /* Metal_PriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_PriceUITests.swift; sourceTree = "<group>"; };
 		6B7515F22145209900852E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3B002F2EE0CCD95211870C /* Pods-Metal PriceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal PriceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Metal PriceUITests/Pods-Metal PriceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		85914A6B1C67A171F5AE1985 /* Pods-Metal PriceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metal PriceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Metal PriceTests/Pods-Metal PriceTests.release.xcconfig"; sourceTree = "<group>"; };
+		99F2E5032CDB236BCC7B856F /* Pods_Metal_PriceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_PriceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF10244694AEBD44450CDB0C /* Pods_Metal_PriceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metal_PriceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E454FCC0C3CC12C20D2B5F4 /* Pods_Metal_Price.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0EA2693F319087E562F6CA /* Pods_Metal_PriceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +106,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908489B1E24EDE1213A51E52 /* Pods_Metal_PriceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3416109BBDA28E464330DB1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				581AB9DF1CDA8994AFF8FD11 /* Pods-Metal Price.debug.xcconfig */,
+				2D9D3FF2D3A0D114A3668466 /* Pods-Metal Price.release.xcconfig */,
+				4E7DBF2B6BFC60EEB33F5EF0 /* Pods-Metal PriceTests.debug.xcconfig */,
+				85914A6B1C67A171F5AE1985 /* Pods-Metal PriceTests.release.xcconfig */,
+				7E3B002F2EE0CCD95211870C /* Pods-Metal PriceUITests.debug.xcconfig */,
+				42885BE287D8710BA4A05AD2 /* Pods-Metal PriceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B0805AB2145532A008D61D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805C2214578A3008D61D3 /* Constant */,
+				6B0805B5214565B6008D61D3 /* Controllers */,
+				6B0805B4214565AB008D61D3 /* Views */,
+				6B0805AF21455D30008D61D3 /* Helper */,
+				6B0805AC21455336008D61D3 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6B0805AC21455336008D61D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805AD21455350008D61D3 /* Property.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B0805AF21455D30008D61D3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805C521457B8D008D61D3 /* ThemeEngine */,
+				6B0805B7214565F0008D61D3 /* InternetCheck */,
+				6B0805B6214565EF008D61D3 /* UIUtility.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6B0805B4214565AB008D61D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805B021455D5E008D61D3 /* Price_TableViewCell.swift */,
+				6B0805B121455D5E008D61D3 /* Price_TableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B0805B5214565B6008D61D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6B7515D22145209800852E1D /* ViewController.swift */,
+				6B0805A921454F08008D61D3 /* SpotPrice_ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6B0805B7214565F0008D61D3 /* InternetCheck */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805B8214565F0008D61D3 /* InternetCheck.h */,
+				6B0805B9214565F0008D61D3 /* InternetCheck.m */,
+				6B0805BA214565F0008D61D3 /* Reachability */,
+			);
+			path = InternetCheck;
+			sourceTree = "<group>";
+		};
+		6B0805BA214565F0008D61D3 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805BB214565F0008D61D3 /* Reachability.m */,
+				6B0805BC214565F0008D61D3 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		6B0805C2214578A3008D61D3 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805C821457BE7008D61D3 /* Constants.swift */,
+				6B0805C3214578B9008D61D3 /* AppURLs.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		6B0805C521457B8D008D61D3 /* ThemeEngine */ = {
+			isa = PBXGroup;
+			children = (
+				6B0805C621457B8D008D61D3 /* ThemeEngine.swift */,
+			);
+			path = ThemeEngine;
+			sourceTree = "<group>";
+		};
 		6B7515C42145209800852E1D = {
 			isa = PBXGroup;
 			children = (
+				6B0805A721453AF4008D61D3 /* Podfile */,
 				6B7515CF2145209800852E1D /* Metal Price */,
 				6B7515E42145209900852E1D /* Metal PriceTests */,
 				6B7515EF2145209900852E1D /* Metal PriceUITests */,
 				6B7515CE2145209800852E1D /* Products */,
+				3416109BBDA28E464330DB1C /* Pods */,
+				F7B3212A278A6FD30AFABD61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				6B7515D02145209800852E1D /* AppDelegate.swift */,
-				6B7515D22145209800852E1D /* ViewController.swift */,
+				6B0805AB2145532A008D61D3 /* Classes */,
 				6B7515D42145209800852E1D /* Main.storyboard */,
 				6B7515D72145209800852E1D /* Assets.xcassets */,
 				6B7515D92145209800852E1D /* LaunchScreen.storyboard */,
@@ -125,6 +264,16 @@
 			path = "Metal PriceUITests";
 			sourceTree = "<group>";
 		};
+		F7B3212A278A6FD30AFABD61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				499E46B90C62682F9DF252E9 /* Pods_Metal_Price.framework */,
+				99F2E5032CDB236BCC7B856F /* Pods_Metal_PriceTests.framework */,
+				BF10244694AEBD44450CDB0C /* Pods_Metal_PriceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7515F52145209900852E1D /* Build configuration list for PBXNativeTarget "Metal Price" */;
 			buildPhases = (
+				5278920DA937152B9E9BABA6 /* [CP] Check Pods Manifest.lock */,
 				6B7515C92145209800852E1D /* Sources */,
 				6B7515CA2145209800852E1D /* Frameworks */,
 				6B7515CB2145209800852E1D /* Resources */,
+				C4D64331155397B2BEA68C82 /* [CP] Embed Pods Frameworks */,
+				8C18EF2566F91F4D87E25194 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7515F82145209900852E1D /* Build configuration list for PBXNativeTarget "Metal PriceTests" */;
 			buildPhases = (
+				122B3831E8E536720F7D341F /* [CP] Check Pods Manifest.lock */,
 				6B7515DD2145209800852E1D /* Sources */,
 				6B7515DE2145209800852E1D /* Frameworks */,
 				6B7515DF2145209800852E1D /* Resources */,
+				9DD9278DC9266879561B1F53 /* [CP] Embed Pods Frameworks */,
+				5FCD6F0AD6DE1E0F6C425FE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B7515FB2145209900852E1D /* Build configuration list for PBXNativeTarget "Metal PriceUITests" */;
 			buildPhases = (
+				8A8B9A5B7764A667CA4031B7 /* [CP] Check Pods Manifest.lock */,
 				6B7515E82145209900852E1D /* Sources */,
 				6B7515E92145209900852E1D /* Frameworks */,
 				6B7515EA2145209900852E1D /* Resources */,
+				75C991FDF1F362D56395F2A0 /* [CP] Embed Pods Frameworks */,
+				267EBFD9434FFB9D3D9A1EF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +391,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B7515DB2145209800852E1D /* LaunchScreen.storyboard in Resources */,
+				6B0805B321455D5E008D61D3 /* Price_TableViewCell.xib in Resources */,
 				6B7515D82145209800852E1D /* Assets.xcassets in Resources */,
+				6B0805A821453AF4008D61D3 /* Podfile in Resources */,
 				6B7515D62145209800852E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +414,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		122B3831E8E536720F7D341F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal PriceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		267EBFD9434FFB9D3D9A1EF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal PriceUITests/Pods-Metal PriceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5278920DA937152B9E9BABA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal Price-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCD6F0AD6DE1E0F6C425FE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal PriceTests/Pods-Metal PriceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C991FDF1F362D56395F2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal PriceUITests/Pods-Metal PriceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8B9A5B7764A667CA4031B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metal PriceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C18EF2566F91F4D87E25194 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal Price/Pods-Metal Price-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD9278DC9266879561B1F53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal PriceTests/Pods-Metal PriceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D64331155397B2BEA68C82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Metal Price/Pods-Metal Price-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Metal Price/Pods-Metal Price-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B7515C92145209800852E1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B0805BD214565F0008D61D3 /* UIUtility.swift in Sources */,
+				6B0805C921457BE7008D61D3 /* Constants.swift in Sources */,
+				6B0805C721457B8D008D61D3 /* ThemeEngine.swift in Sources */,
+				6B0805C4214578BA008D61D3 /* AppURLs.swift in Sources */,
 				6B7515D32145209800852E1D /* ViewController.swift in Sources */,
+				6B0805BF214565F0008D61D3 /* Reachability.m in Sources */,
+				6B0805AA21454F08008D61D3 /* SpotPrice_ViewController.swift in Sources */,
+				6B0805BE214565F0008D61D3 /* InternetCheck.m in Sources */,
+				6B0805AE21455350008D61D3 /* Property.swift in Sources */,
 				6B7515D12145209800852E1D /* AppDelegate.swift in Sources */,
+				6B0805B221455D5E008D61D3 /* Price_TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +749,7 @@
 		};
 		6B7515F62145209900852E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581AB9DF1CDA8994AFF8FD11 /* Pods-Metal Price.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +765,7 @@
 		};
 		6B7515F72145209900852E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9D3FF2D3A0D114A3668466 /* Pods-Metal Price.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +781,7 @@
 		};
 		6B7515F92145209900852E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7DBF2B6BFC60EEB33F5EF0 /* Pods-Metal PriceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +799,7 @@
 		};
 		6B7515FA2145209900852E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85914A6B1C67A171F5AE1985 /* Pods-Metal PriceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +817,7 @@
 		};
 		6B7515FC2145209900852E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3B002F2EE0CCD95211870C /* Pods-Metal PriceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +834,7 @@
 		};
 		6B7515FD2145209900852E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42885BE287D8710BA4A05AD2 /* Pods-Metal PriceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
